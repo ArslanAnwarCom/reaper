@@ -1,5 +1,10 @@
-## 📝 Script Description: Explode Multistream Media File to New one-stream
+## Script Description: Explode Multistream Media File to New one-stream
 
+Add the following repository to [ReaPack](https://reapack.com):
+
+```
+https://github.com/ArslanAnwarCom/reaper/raw/main/index.xml
+```
 This Lua script for **REAPER** (a Digital Audio Workstation) automates the process of breaking a single selected media item containing multiple streams (like a video with video and audio, or a single file with multiple audio channels) into separate media items, each containing one stream, placed on newly created tracks.
 
 ---
@@ -32,7 +37,10 @@ The script executes the following steps:
 
 This script requires the command-line tool **FFmpeg** to be installed and accessible system-wide.
 
-The ```ffmpeg``` executable must be resolvable from your system's PATH environment variable, as the script relies on being able to call the command `ffmpeg` directly to inspect media files and perform the stream extraction and conversion.
+The
+```
+ffmpeg
+```
+executable must be resolvable from your system's PATH environment variable, as the script relies on being able to call the command `ffmpeg` directly to inspect media files and perform the stream extraction and conversion.
 You can download ffmpeg from https://www.gyan.dev/ffmpeg/builds/#release-builds or open command prompt and type
-```winget install ffmpeg```
-and hit enter. This will install and configure ffmpeg.
+``` winget install ffmpeg ``` and hit enter. This will install and configure ffmpeg.
