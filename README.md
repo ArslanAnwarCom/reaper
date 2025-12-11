@@ -43,4 +43,7 @@ ffmpeg
 ```
 executable must be resolvable from your system's PATH environment variable, as the script relies on being able to call the command `ffmpeg` directly to inspect media files and perform the stream extraction and conversion.
 You can download ffmpeg from https://www.gyan.dev/ffmpeg/builds/#release-builds or open command prompt and type
-``` winget install ffmpeg ``` and hit enter. This will install and configure ffmpeg.
+```
+winget install ffmpeg
+```
+and hit enter. This will install and configure ffmpeg.
