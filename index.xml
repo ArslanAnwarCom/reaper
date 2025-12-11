@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1">
+<index version="1" name="Arslan Anwar">
   <category name="ArslanAnwar Scripts">
-    <package
-      name="Explode Multistream (Multitrack) Media File to New One-Stream"
-      type="script"
-      author="Arslan Anwar"
-      version="1.0.0"
-      desc="Explodes a multistream media file (video or audio) into separate single-stream items on new tracks in REAPER."
-      provides="ArslanAnwar - Explode Multistream - Multitrack - Media File to New one-stream.lua"
-    >
-      <source
-        file="ArslanAnwar - Explode Multistream - Multitrack - Media File to New one-stream.lua"
-        type="script"
-      >https://raw.githubusercontent.com/ArslanAnwarCom/reaper/main/ArslanAnwar%20-%20Explode%20Multistream%20(Multitrack)%20Media%20File%20to%20New%20one-stream.lua</source>
-    </package>
+    <reapack name="ArslanAnwar - Explode Multistream - Multitrack - Media File to New one-stream.lua" type="script">
+      <version name="1.0.0">
+        <source main="main">https://raw.githubusercontent.com/ArslanAnwarCom/reaper/main/ArslanAnwar%20-%20Explode%20Multistream%20(Multitrack)%20Media%20File%20to%20New%20one-stream.lua</source>
+      </version>
+    </reapack>
   </category>
 </index>
