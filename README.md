@@ -2,13 +2,10 @@
 
 This Lua script for **REAPER** (a Digital Audio Workstation) automates the process of breaking a single selected media item containing multiple streams (like a video with video and audio, or a single file with multiple audio channels) into separate media items, each containing one stream, placed on newly created tracks.
 
-```
-https://github.com/ArslanAnwarCom/reaper/raw/main/index.xml
-```
 
 ---
 
-### **How it works:**
+## **How it works:**
 
 1.  **Identify Multi-stream Items:** It inspects all selected media items in the REAPER project to determine which ones contain multiple streams (e.g., video and audio, or multiple distinct audio tracks) using the external `ffmpeg` tool.
 2.  **External Conversion & Extraction:** For every multi-stream item found, it uses `ffmpeg` to:
@@ -50,3 +47,6 @@ winget install ffmpeg
 and hit enter. This will install and configure ffmpeg.
 ## Installation:
 Add the following repository to [ReaPack](https://reapack.com):
+```
+https://github.com/ArslanAnwarCom/reaper/raw/main/index.xml
+```
