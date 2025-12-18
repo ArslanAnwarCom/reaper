@@ -3,7 +3,7 @@
   <category name="ArslanAnwar Scripts">
     <reapack name="ArslanAnwar - Explode Multistream - Multitrack - Media File to New one-stream.lua" type="script">
       <version name="1.0.0">
-        <source main="main">https://raw.githubusercontent.com/ArslanAnwarCom/reaper/main/ArslanAnwar%20-%20Explode%20Multistream%20(Multitrack)%20Media%20File%20to%20New%20one-stream.lua</source>
+        <source main="main">https://raw.githubusercontent.com/ArslanAnwarCom/reaper/main/Scripts/Explode%20Multi%20Stream/ArslanAnwar%20-%20Explode%20Multistream%20(Multitrack)%20Media%20File%20to%20New%20one-stream.lua</source>
       </version>
     </reapack>
   </category>
